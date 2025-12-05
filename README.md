@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Proof-of-Concept Exploits Repository</title>
+    <h1>Proof-of-Concept Exploits Repository<h1>
 </head>
 <body>
 
