@@ -5,9 +5,6 @@
     <h1>Proof-of-Concept Exploits Repository<h1>
 </head>
 <body>
-
-<h1>Proof-of-Concept Exploits Repository</h1>
-
 <p>
     This repository contains my own collection of proof-of-concept (PoC) exploits created for security testing and research purposes.
     Each folder is organized by CVE identifier (for example: <code>CVE-2025-XXXX/</code>), and inside you will find the corresponding exploit code and documentation.
